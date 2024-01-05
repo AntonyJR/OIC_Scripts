@@ -1,0 +1,24 @@
+{
+  "allowlistedHttpIps": [
+    "string",
+    "string"
+  ],
+  "allowlistedHttpVcns": [
+    {
+      "allowlistedIps": [
+        "string",
+        "string"
+      ],
+      "id": "string"
+    },
+    {
+      "allowlistedIps": [
+        "string",
+        "string"
+      ],
+      "id": "string"
+    }
+  ],
+  "isIntegrationVcnAllowlisted": true,
+  "networkEndpointType": "PUBLIC"
+}
