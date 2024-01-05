@@ -6,6 +6,7 @@ if [ $# -ne 2 ]
     echo "Instance_OCID is the OCID of the OIC instance to have the ACL added"
     echo "Filename is the list of ACLs to set on the OIC instance"
     echo "Filename should be fully qualified filename starting at /"
+    echo "Sample file is samples/network-endpoint-details.json"
     echo "Note that the ACL replaces any existing ACL on the instance"
     echo "Command docs https://docs.oracle.com/en-us/iaas/tools/oci-cli/3.37.1/oci_cli_docs/cmdref/integration/integration-instance/change-network-endpoint.html"
     exit 2
