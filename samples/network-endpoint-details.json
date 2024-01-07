@@ -19,6 +19,10 @@
       "id": "string"
     }
   ],
+  "allowlistedFileServerIps": [
+    "string",
+    "string"
+  ]
   "isIntegrationVcnAllowlisted": true,
   "networkEndpointType": "PUBLIC"
 }
