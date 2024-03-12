@@ -9,3 +9,4 @@ Scripts that use OCI CLI will require the CLI to be installed and configured. Th
 |[getCompartmentOCID.sh](bin/getCompartmentOCID.sh)|Get a compartment OCID by name for use in other commands|
 |[listIntegrationInstances.sh](bin/listIntegrationInstances.sh)|List all OIC instances in a compartment in tabular form|
 |[getIntegrationInstance.sh](bin/getIntegrationInstance.sh)|Get an OIC instance details in json format|
+|[createIntegrationInstance.sh](bin/createIntegrationInstance.sh)|Create an OIC instance|
