@@ -5,8 +5,17 @@ Scripts that use OCI CLI will require the CLI to be installed and configured. Th
 
 |Command|Notes|
 |-------|-----|
+|OIC Lifecycle||
 |[configACL.sh](bin/configACL.sh)|Apply an access control list to an OIC instance, sample ACL config file is [network-endpoint-details.json](samples/network-endpoint-details.json)|
 |[getCompartmentOCID.sh](bin/getCompartmentOCID.sh)|Get a compartment OCID by name for use in other commands|
 |[listIntegrationInstances.sh](bin/listIntegrationInstances.sh)|List all OIC instances in a compartment in tabular form|
 |[getIntegrationInstance.sh](bin/getIntegrationInstance.sh)|Get an OIC instance details in json format|
 |[createIntegrationInstance.sh](bin/createIntegrationInstance.sh)|Create an OIC instance|
+|Bastion Access||
+|[createBastionSession.sh](bin/createBastionSession.sh)|Create a new SSH bastion session|
+|[getBastionSessionSSH.sh](bin/getBastionSessionSSH.sh)|Retrieve SSH command for use with bastion|
+|[getSecret.sh](bin/getSecret.sh)|Get secret from vault|
+|[listBastionSessions.sh](bin/listBastionSessions.sh)|List sessions on given bastion|
+|[listBastions.sh](bin/listBastions.sh)|List bastions in given compartment|
+|[listComputeResources.sh](bin/listComputeResources.sh)|List sompute resources in given compartment|
+|[listSecrets.sh](bin/listSecrets.sh)|List secrets in given compartment|
