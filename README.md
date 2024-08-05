@@ -20,4 +20,11 @@ Scripts that use OCI CLI will require the CLI to be installed and configured. Th
 |[listComputeResources.sh](bin/listComputeResources.sh)|List sompute resources in given compartment|
 |[listSecrets.sh](bin/listSecrets.sh)|List secrets in given compartment|
 
-See [how to use the scripts to create an SSH connection to a compute node](HowTo/ConnectToComputeNodeUsingBastion.md)
+## How Tos
+There are a number of how to documents available
+* [How to Create an SSH Connection to a Compute Node](HowTo/ConnectToComputeNodeUsingBastion.md)
+* [How to Create a Bastion Session](HowTo/CreateBastionSession.md)
+* [How to List Bastion Sessions](HowTo/ListBastionSessions.md)
+* [How to Get a Compute Node OCID](HowTo/GetComputeNodeOCID.md)
+* [How to Retrieve Secrets from a Vault](HowTo/RetrieveSecretsFromVault.md)
+
